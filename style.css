@@ -135,3 +135,138 @@ nav{
 .article-sm:hover h1{
     color: #d33a2c;
 }
+.content2{
+	grid-template-columns: 1fr 2fr;
+	margin: 0 50px;
+	display: flex;
+}
+.content2 aside{
+	background-color: #d33a2c;
+    border-radius: 10px;
+    padding: 50px 180px;: 
+}
+.content2 aside h1, .content2 aside p{
+    margin-bottom: 30px;
+}
+.content2 aside h1{
+    font-size: 40px;
+    color: white;
+}
+.content2 p{
+    font-size: 18px;
+    line-height: 1.8;
+}
+.content2 aside small{
+    margin-top: 30px;
+    display: block;
+}
+.light-btn{
+    color: #267dcd;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 600; 
+    padding: 18px 30px;
+    border-radius: 10px;
+    border: none;
+}
+.smash{
+	background-color: #d33a2c;
+	border-radius: 10px;
+	text-align: center;
+	color: white; 
+}
+.smash h1{
+	margin-bottom: 30px;
+	font-size: 40px;
+    color: white;
+}
+.smash small{
+	margin-top: 30px;
+    display: block;
+}
+.smash p{
+	font-size: 18px;
+	line-height: 1.8;
+}
+.see-all{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+	color: black;
+	border-bottom: 3px solid red;
+	margin-left: 530px;
+	margin-right: 530px;
+}
+.banner{
+    background-color: #267dcd;
+    padding: 50px 200px;
+    margin: 10px 0;
+    text-align: center;
+}
+.banner h1{
+    font-size: 50px;
+}
+.banner h1, .banner h4, .banner p{
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 2px rgba(10,12,11,0.6);
+}
+.banner p{
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+footer{
+	background-color: #d33a2c;
+    align-self: end;
+    padding: 20px 50px;
+    text-align: center;
+    padding-top: 50px;
+}
+footer small{
+    display: inline-block;
+    padding: 0 380px;
+}
+footer small a{
+	color: white;
+}
+.topics{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 18px;
+    margin: 30px 0;
+}
+.topic-item a{
+	text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.topic-item{
+    margin-right: 25px;
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+}
+.topic-item::before{
+    font-size: 45px;
+    content: "•";
+    color: #a92e23;
+    margin-right: 8px;
+}
+.footer-links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px 0;
+    padding: 0 340px;
+}
+.footer-item{
+    margin-right: 15px;
+    line-height: 2.5;
+}
+.footer-item a{
+    border-bottom: 2px solid white;
+    color: white;
+    text-decoration: none;
+}
