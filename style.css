@@ -1,0 +1,137 @@
+body{
+	background-color: #f6f3f2;
+	color: #f6f3f2;
+	display: grid;
+	font-family: 'Balsamiq Sans' , cursive;
+}
+nav{
+	display: flex;
+	font-size: 20px;
+	font-weight: 600;
+	background-color: #d33a2c;
+	padding: 18px 50px;
+	align-items: center;
+}
+.brand-logo{
+	margin-right: 50px;
+}
+.nav-item{
+	margin-right: 30px;
+	padding: 15px 20px;
+	border-radius: 10px;
+}
+.nav-item a{
+	text-decoration: none;
+	color: white;
+}
+.nav-item:hover{
+	background-color: #a92e23;
+}
+.nav-links{
+	display: flex;
+}
+.more-btn{
+	background-color: #a92e23;
+	color: white;
+	font-size: 20px;
+	font-weight: 600;
+	border-radius: 10px;
+	border: none;
+	padding: 10px 20px;
+}
+.header{
+	position: absolute;
+	color: #333333;
+	font-size: 36px;
+	font-weight: 600;
+	margin-top: 40px;
+	justify-self: center;
+	text-align: center;
+}
+.header span{
+	background-color: white;
+	display: inline-block;
+	padding: 10px;
+}
+.main{
+	color: white;
+	position: relative;
+	display: grid;
+	background-color: #d33a2b; 
+}
+.cols2{
+	margin-top: 100px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.cols2 article{
+	padding: 45px 50px;
+}
+.cols2 article figure{
+	display: flex;
+	align-items: center;
+	margin-bottom: 15px;
+}
+.cols2 article .comment{
+	font-weight: 600;
+	margin-bottom: 40px;
+}
+.hashtags{
+	display: flex;
+}
+.hashtag-item{
+	margin-right: 20px
+}
+.hashtag-item::before{
+	font-weight: 600;
+	color: #61140f;
+	margin-right: 8px;
+	content: #;
+}
+.img-box{
+	width: 60px;
+	height: 60px;
+	margin-right: 20px;
+	border-radius: 10px;
+	border: 2px solid white;
+	rotate: -20grad;
+}
+.bottom{
+	margin: 0 50px;
+	column-gap: 40px;
+	padding: 40px 0;
+	justify-content: space-between;
+}
+.cols3{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.article-sm .author{
+    color: #666666;
+    margin-bottom: 15px;
+}
+.article-sm h1{
+    margin-bottom: 25px;
+    font-size: 26px;
+    line-height: 1.2;
+}
+.article-sm .author{
+    font-weight: 600;
+}
+.article-sm p{
+    color: #333333;
+    line-height: 1.8;
+}
+.article-sm{
+    transition: all 0.4s;
+    padding: 10px 20px;
+    color: black;
+}
+.article-sm:hover{
+    transform: scale(1.1);
+    background-color: white;
+    box-shadow: 1px 0px 5px 0px rgba(50, 50, 50, 0.75);
+}
+.article-sm:hover h1{
+    color: #d33a2c;
+}
